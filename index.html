@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <h1>Смогли бы вы стать журналистом?</h1>
+
+    <section class="main">
+        <form name="quiz" action="javascript:check();" class="quizform">
+            <div class="quizsection">
+                <h2>Вопрос 1</h2>
+                <p>Новый человек рассказывает вас о себе. Есть ли у вас обычно вопросы к нему?</p>
+                <div class="answer">
+                    <input name="q1" value="value1" id="value1" type="radio" checked="checked" /> 
+                    Да, мне интересны подробности
+                </div>
+                <div class="answer">
+                    <input name="q1" value="value2" id="value2" type="radio" /> 
+                    Не всегда, только, если он упомянет что-то, что я недопонял(а) или хочу узнать больше
+                </div>
+                <div class="answer">
+                    <input name="q1" value="value3" id="value3" type="radio" /> 
+                    Нет, я же ничего о нем не знаю
+                </div>
+                <div class="answer">
+                    <input name="q1" value="value4" id="value4" type="radio" />
+                    Нет, захочет - сам расскажет
+                </div>
+            </div>
+
+
+            <div class="quizsection">
+
+                <h2>Вопрос 2</h2>
+                <p>Вам нужно выйти в парк, остановить 20 незнакомых людей, задать им один и тот же вопрос и уговорить сфотографироваться.
+                     Какие чувства у вас вызывает эта необходимость?</p>
+                <div class="answer">
+                    <input name="q2" value="value1" id="value1" type="radio" checked="checked" /> 
+                    Интерес - хочу попробовать!
+                </div>
+                <div class="answer">
+                    <input name="q2" value="value2" id="value2" type="radio" /> 
+                    Волнение, я люблю общаться с людьми, но боюсь не справиться
+                </div>
+                <div class="answer">
+                    <input name="q2" value="value3" id="value3" type="radio" /> 
+                    Страх, а вдруг мне откажут
+                </div>
+                <div class="answer">
+                    <input name="q2" value="value4" id="value4" type="radio" /> 
+                    Это настоящее мучение для меня, я точно откажусь
+                </div>
+            </div>
+
+
+            <div class="quizsection">
+
+                <h2>Вопрос 3</h2>
+                <p>Ведете ли вы что-то из перечисленного: дневник, блог, страничку на сайте-отзовиках, 
+                    регулярно пишете собственные посты в своем профиле в соцсетях, группу или паблик?</p>
+                <div class="answer">
+                    <input name="q3" value="value1" id="value1" type="radio" checked="checked" /> 
+                    Да, причем несколько вариантов сразу
+                </div>
+                <div class="answer">
+                    <input name="q3" value="value2" id="value2" type="radio" /> 
+                    Да, но не перечисленное, а нечто другое, публичное
+                </div>
+                <div class="answer">
+                    <input name="q3" value="value3" id="value3" type="radio" /> 
+                    Хотел(а) бы, но не хватает времени
+                </div>
+                <div class="answer">
+                    <input name="q3" value="value4" id="value4" type="radio" /> 
+                    Нет, пустая трата времени
+                </div>
+            </div>
+
+            <div class="quizsection">
+                <h2>Вопрос 4</h2>
+                <p>Сможете ли вы с ходу перечислить основные проблемы, которые стоят перед вашей школой/вузом/местом работы?</p>
+                <div class="answer">
+                    <input name="q4" value="value1" id="value1" type="radio" checked="checked" /> 
+                    Да, я вхожу в актив школы/вуза/коллектива
+                </div>
+                <div class="answer">
+                    <input name="q4" value="value2" id="value2" type="radio" /> 
+                    Да, я не раз о них думал(а) и обсуждала с друзьями/коллегами
+                </div>
+                <div class="answer">
+                    <input name="q4" value="value3" id="value3" type="radio" />
+                    В общих чертах да
+                </div>
+                <div class="answer">
+                    <input name="q4" value="value4" id="value4" type="radio" /> 
+                    Нет, я не вдавался(лась) в подробности
+                </div>
+            </div>
+
+            <div class="quizsection">
+                <h2>Вопрос 5</h2>
+                <p>Писать что-либо - ваше самое любимое занятие? Вы занимаетесь этим, даже не будучи журналистом?</p>
+                <div class="answer">
+                    <input name="q5" value="value1" id="value1" type="radio" checked="checked" /> 
+                    Да, я всегда что-то пишу
+                </div>
+                <div class="answer">
+                    <input name="q5" value="value2" id="value2" type="radio" />
+                    Да, я периодически испытываю потребность писать
+                </div>
+                <div class="answer">
+                    <input name="q5" value="value3" id="value3" type="radio" /> 
+                    ногда я не прочь что-то написать по вдохновению
+                </div>
+                <div class="answer">
+                    <input name="q5" value="value4" id="value4" type="radio" /> 
+                    Нет, я ненавижу писать
+                </div>
+            </div>
+
+            <div class="quizsection">
+                <h2>Вопрос 6</h2>
+                <p>Вы интроверт, экстраверт или амбиверт (нуждаетесь в смене уединения и общения)?</p>
+                <div class="answer">
+                    <input name="q6" value="value1" id="value1" type="radio" checked="checked" /> 
+                    Я экстраверт, обожаю знакомиться, общаться
+                </div>
+                <div class="answer">
+                    <input name="q6" value="value2" id="value2" type="radio" /> 
+                    Я амбиверт: мне нужно уединение и живое общение 50:50
+                </div>
+                <div class="answer">
+                    <input name="q6" value="value3" id="value3" type="radio" /> 
+                    Интроверт, но обо мне так с виду и не скажешь
+                </div>
+                <div class="answer">
+                    <input name="q6" value="value4" id="value4" type="radio" /> 
+                    Интроверт, да еще и социофоб
+                </div>
+            </div>
+
+            <div class="inputs">
+                <input class="a" value="Ответить" type="submit" /> 
+                <input class="b" value="Сбросить" type="reset" />
+            </div>
+        </form>
+    </section>
+
+
+
+
+    <script type="text/javascript">
+        let result;
+        function check() {
+            let question;
+            let value1;
+            let value2;
+            let value3;
+            let value4;
+
+            question = 1;
+            value1 = 0;
+            value2 = 0;
+            value3 = 0;
+            value4 = 0;
+
+            result = "";
+
+            let choice;
+
+            for (question = 1; question <= 5; question++) {
+                let q = document.forms['quiz'].elements['q' + question];
+                for (let i = 0; i < q.length; i++) {
+                    if (q[i].checked) {
+                        choice = q[i].value;
+                    }
+                }
+
+                if (choice == "value1") {
+                    value1++;
+                }
+
+                if (choice == "value2") {
+                    value2++;
+                }
+
+                if (choice == "value3") {
+                    value3++;
+                }
+
+                if (choice == "value4") {
+                    value4++;
+                }
+            }
+
+            if (value1 >= value2 && value1 >= value3 && value1 >= value4 && value1 > 0) {
+                result = "1";
+            }
+
+            else if (value2 > value1 && value2 >= value3 && value2 >= value4 && value2 > 0) {
+
+                result = "2";
+            }
+
+            else if (value3 > value1 && value3 > value2 && value3 >= value4 && value3 > 0) {
+
+                result = "3";
+            }
+
+            else if (value4 > value1 && value4 > value2 && value4 > value3 && value4 > 0) {
+
+                result = "4";
+            }
+            window.location = result + '.html';
+
+        }
+    </script>
+</body>
+
+</html>
