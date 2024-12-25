@@ -100,19 +100,17 @@ p{
     
 }
 
-@media(max-width:720px) {
-    .container {
-        width: 100% !important;
-        padding: 20px 20px !important;
-    }
+@media(max-width:720px) 
 
     
     body {
         width: 700px;
+            width: 100% !important;
+        padding: 20px 20px !important;
     }
 
     .quizsection {
-        width: 500px;
+        width: 400px;
     }
 
     h1 {
