@@ -71,10 +71,10 @@ p{
     justify-content: center;
 }
 
-@media (max-width: 991px) {
-    
+@media (max-width:1024px) {
+
     body {
-        width: 991px;
+        width: 700px;
     }
 
     .quizsection {
