@@ -72,6 +72,11 @@ p{
 }
 
 @media (max-width: 991px) {
+    
+    body {
+        width: 991px;
+    }
+
     .quizsection {
         width: 500px;
     }
