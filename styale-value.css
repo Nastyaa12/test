@@ -125,7 +125,7 @@ a{
     
 }
 
-@media(max-width:720px) {
+@media(max-width:320px) {
 
     body {
         width: 100% !important;
